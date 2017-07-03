@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">RunRunPocket</string>
+    <string name="app_name">RunRun Pocket</string>
+    <string name="commons_loading">Loading…</string>
 </resources>
