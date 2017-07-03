@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/padding_small">
+
+
+    <ImageButton
+        android:id="@+id/imagebutton_play_or_pause"
+        android:layout_width="@dimen/play_or_pause"
+        android:layout_height="@dimen/play_or_pause"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="@dimen/padding_small"
+        android:layout_toLeftOf="@+id/imagebutton_done"
+        android:src="@drawable/ic_play"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton_done"
+        android:layout_width="@dimen/play_or_pause"
+        android:layout_height="@dimen/play_or_pause"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_done"/>
+
+    <TextView
+        android:id="@+id/textview_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imagebutton_play_or_pause"
+        android:text="#ID"/>
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_id"
+        android:layout_toLeftOf="@+id/imagebutton_play_or_pause"
+        android:text="Titulo da tarefa"/>
+
+</RelativeLayout>

@@ -2,4 +2,5 @@
 <resources>
     <dimen name="loading">40dp</dimen>
     <dimen name="padding_small">8dp</dimen>
+    <dimen name="play_or_pause">40dp</dimen>
 </resources>

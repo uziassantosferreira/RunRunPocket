@@ -9,7 +9,7 @@ import retrofit2.http.Path
 
 interface TasksService {
 
-    @GET("tasks?responsible_id=uzias-santos-ferreira")
+    @GET("tasks?responsible_id=")
     fun getTasks(): Observable<List<JsonTask>>
 
     @POST("tasks/{id}/play")

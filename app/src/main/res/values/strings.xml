@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RunRun Pocket</string>
     <string name="commons_loading">Loading…</string>
+    <string name="error_defualt">An unexpected error has occurred!</string>
 </resources>
